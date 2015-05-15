@@ -19,3 +19,7 @@ And then execute:
 To post the newest xkcd comic into a room, type ```!xkcd``` in chat.
 
 To post a random xkcd comic, type ```!xkcd random``` in chat.
+
+## Links
+
+* [isis-plugin-xkcd on RubyGems](https://rubygems.org/gems/isis-plugin-xkcd)
