@@ -1,13 +1,13 @@
-# Isis plugin: xkcd
+# Duchess plugin: xkcd
 
-This plugin adds an [xkcd](http://xkcd.com) command to the [Isis chatbot](https://github.com/silentgrowl/isis)
+This plugin adds an [xkcd](http://xkcd.com) command to the [Duchess chatbot](https://github.com/silentgrowl/duchess)
 
 ## Installation
 
-Add this line to your Isis installation's Gemfile:
+Add this line to your Duchess installation's Gemfile:
 
 ```ruby
-gem 'isis-plugin-xkcd'
+gem 'duchess-plugin-xkcd'
 ```
 
 And then execute:
@@ -22,4 +22,4 @@ To post a random xkcd comic, type ```!xkcd random``` in chat.
 
 ## Links
 
-* [isis-plugin-xkcd on RubyGems](https://rubygems.org/gems/isis-plugin-xkcd)
+* [duchess-plugin-xkcd on RubyGems](https://rubygems.org/gems/duchess-plugin-xkcd)
