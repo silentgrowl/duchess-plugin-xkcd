@@ -1,8 +1,8 @@
 require "nokogiri"
 
-module Isis
+module Duchess
   module Plugin
-    class XKCD < Isis::Plugin::Base
+    class XKCD < Duchess::Plugin::Base
       def respond_to_msg?(msg, speaker)
         @commands = msg.split
         @commands[0] == '!xkcd'

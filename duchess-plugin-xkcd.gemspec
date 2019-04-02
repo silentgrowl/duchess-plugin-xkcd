@@ -3,15 +3,15 @@ lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
-  spec.name          = "isis-plugin-xkcd"
+  spec.name          = "duchess-plugin-xkcd"
   spec.version       = "1.0.0"
   spec.authors       = ["Brendon Rapp"]
   spec.email         = ["brendon@silentgrowl.com"]
   spec.license       = 'MIT'
 
-  spec.summary       = %q{Isis plugin: xkcd}
-  spec.description   = %q{Isis plugin: xkcd}
-  spec.homepage      = "https://github.com/silentgrowl/isis-plugin-xkcd"
+  spec.summary       = %q{Duchess plugin: xkcd}
+  spec.description   = %q{Duchess plugin: xkcd}
+  spec.homepage      = "https://github.com/silentgrowl/duchess-plugin-xkcd"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "exe"
